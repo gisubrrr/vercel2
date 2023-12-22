@@ -1,0 +1,134 @@
+@import "https://fonts.fontstorage.com/import/comfortaa.css";
+@import "https://fonts.fontstorage.com/import/roboto.css"; 
+
+.menu{
+    margin-top: 3%;
+    display: flex; 
+}
+.image-menu{
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.pic{
+    width: 20px;  
+    height: 20px;
+}
+.pic98{
+    width:98%;  
+    height:98%; 
+}
+.main-container {
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns:350px 350px 350px 350px;
+    grid-template-rows: 40px 350px 350px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.flex-links{
+    display: flex;
+    justify-content:center;
+}
+.link{
+    margin-left: 10px;
+    margin-right:10px;
+    font-family:'comfortaa';
+    font-size: 20px;
+    margin-top: -10px;
+}
+.flex-logo{
+    display: flex;
+    justify-content:space-around;
+    margin-top: -30px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-family:'comfortaa';
+    font-weight: 100;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+}
+h3{
+    font-family:'comfortaa';
+    font-weight: 500px;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+}
+body{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+p{
+    text-align: inherit;
+    font-size: 26px;
+}
+footer{
+
+    background-color: rgb(220, 220, 220);
+    height:430px;
+    width:100%;
+}
+.footer-row{
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.footer-colunm{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    margin-bottom: -8px;
+    font-size: 20px;
+}
+.scroll{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(210, 210, 210);
+}
+.text-scroll{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    width: 400px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.image{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center; 
+}
+a {
+    text-decoration: none;
+    color: #000000;
+  }
+a:hover {
+    text-decoration: underline turquoise;
+  }	
+.grid-image{
+    display: grid;
+
+}
+

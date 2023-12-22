@@ -1,0 +1,167 @@
+@import "https://fonts.fontstorage.com/import/comfortaa.css";
+@import "https://fonts.fontstorage.com/import/roboto.css"; 
+
+.menu{
+    margin-top: 3%;
+    display: flex; 
+}
+.image-menu{
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.main-container{
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns:450px 450px  500px;
+    grid-template-rows: 450px 450px;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+.pic{
+    width: 20px;  
+    height: 20px;
+}
+.pic98{
+    width:98%;  
+    height:98%; 
+}
+.item1{
+    margin-top: 20%;
+}
+.flex-links{
+    display: flex;
+    justify-content:center;
+}
+.link{
+    margin-left: 10px;
+    margin-right:10px;
+    font-family:'comfortaa';
+    font-size: 20px;
+    margin-top: -10px;
+}
+.flex-logo{
+    display: flex;
+    justify-content:space-around;
+    margin-top: -30px;
+}
+.malevich{
+    background-color: #000000;
+    width: 300px;
+    height: 30px;
+}
+.left{
+    margin-left: 10%;
+}
+.linetext{
+    border-top: 1px solid black;
+    padding-top: 2%;
+    font-family:'comfortaa';
+    font-weight: 100;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.h1{
+    margin-top: 30px ;
+    font-size: 48px;
+}
+.h2{
+    font-family:'comfortaa';
+    font-weight: 100;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+}.h3{
+    font-family:'comfortaa';
+    font-weight: 100;
+    text-align: left;
+    margin-top: -10px;
+    font-size: 26px;
+}
+.h4{
+    font-size: 30px;
+}
+body{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+p{
+    text-align: inherit;
+    font-size: 26px;
+}
+footer{
+    background-color: rgb(220, 220, 220);
+    height:430px;
+    width:100%;
+}
+.footer-row123{
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.footer-colunm123{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text123{
+
+    font-size: 20px;
+}
+.image{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center; 
+}
+.linkclass{
+    text-decoration: none;
+    color: #000000;
+}
+.btn-secondary {
+  color: #ff0000;
+  background-color:#ff0000;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin-bottom: -3%; 
+    margin-top: -2%; 
+}
+.buttontext{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 1%;
+}
+.buttontextleft{
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20px;
+}
+
+.dropdown-toggle{
+    color: white;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+  }
+a:hover {
+    text-decoration: underline turquoise;
+  }	
+.grid-image{
+    display: grid;
+
+}
+
